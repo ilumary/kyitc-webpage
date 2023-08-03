@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-navbar',
+  selector: 'app-vision',
   templateUrl: './vision.component.html',
   styleUrls: ['./vision.component.css']
 })
-export class NavbarComponent {
+export class VisionComponent {
 
 }

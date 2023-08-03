@@ -1,8 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NavbarComponent } from './vision.component';
+import { VisionComponent } from './vision.component';
 
-describe('NavbarComponent', () => {
+describe('VisionComponent', () => {
   let component: VisionComponent;
   let fixture: ComponentFixture<VisionComponent>;
 
