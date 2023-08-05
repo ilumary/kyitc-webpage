@@ -7,6 +7,9 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { VisionComponent } from './pagecomponents/vision/vision.component';
 import { StarterpageComponent } from './pagecomponents/starterpage/starterpage.component';
+import { AboutComponent } from './pages/about/about.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { StarterpageComponent } from './pagecomponents/starterpage/starterpage.c
     NavbarComponent,
     FooterComponent,
     VisionComponent,
-    StarterpageComponent
+    StarterpageComponent,
+    AboutComponent,
+    ContactComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
