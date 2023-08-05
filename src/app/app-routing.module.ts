@@ -6,6 +6,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { CoachingComponent } from './pages/coaching/coaching.component';
 import { AppointmentsComponent } from './pages/appointments/appointments.component';
 import { ImpressumComponent } from './pages/impressum/impressum.component';
+import { FaqComponent } from './pages/faq/faq.component';
 
 const routes: Routes = [
   { path: 'about', component: AboutComponent },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'coaching', component: CoachingComponent },
   { path: 'termine', component: AppointmentsComponent },
   { path: 'impressum', component: ImpressumComponent },
+  { path: 'faq', component: FaqComponent },
   { path: '', component: HomeComponent },
 ];
 

@@ -13,6 +13,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { CoachingComponent } from './pages/coaching/coaching.component';
 import { AppointmentsComponent } from './pages/appointments/appointments.component';
 import { ImpressumComponent } from './pages/impressum/impressum.component';
+import { FaqComponent } from './pages/faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ImpressumComponent } from './pages/impressum/impressum.component';
     HomeComponent,
     CoachingComponent,
     AppointmentsComponent,
-    ImpressumComponent
+    ImpressumComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,

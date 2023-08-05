@@ -1,0 +1,15 @@
+a {
+    color: #F5F3EC;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+a:hover {
+    color:#a8a6a0;
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+ul {
+    list-style-type: none;
+}
