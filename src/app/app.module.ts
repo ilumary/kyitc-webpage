@@ -10,6 +10,9 @@ import { StarterpageComponent } from './pagecomponents/starterpage/starterpage.c
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
+import { CoachingComponent } from './pages/coaching/coaching.component';
+import { AppointmentsComponent } from './pages/appointments/appointments.component';
+import { ImpressumComponent } from './pages/impressum/impressum.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { HomeComponent } from './pages/home/home.component';
     StarterpageComponent,
     AboutComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    CoachingComponent,
+    AppointmentsComponent,
+    ImpressumComponent
   ],
   imports: [
     BrowserModule,
