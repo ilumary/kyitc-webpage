@@ -14,6 +14,7 @@ import { CoachingComponent } from './pages/coaching/coaching.component';
 import { AppointmentsComponent } from './pages/appointments/appointments.component';
 import { ImpressumComponent } from './pages/impressum/impressum.component';
 import { FaqComponent } from './pages/faq/faq.component';
+import { PreFooterComponent } from './shared/pre-footer/pre-footer.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FaqComponent } from './pages/faq/faq.component';
     CoachingComponent,
     AppointmentsComponent,
     ImpressumComponent,
-    FaqComponent
+    FaqComponent,
+    PreFooterComponent
   ],
   imports: [
     BrowserModule,
