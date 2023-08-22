@@ -1,0 +1,41 @@
+.c-vision-cols {
+    grid-column-gap: 1rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+.c-vision-col_left {
+    width: 40%;
+    max-width: 80%;
+    letter-spacing: -.02em;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 3.125rem;
+}
+
+.c-vision-col_right {
+    width: 49%;
+    max-width: 80%;
+    letter-spacing: -.02em;
+    font-size: 1rem;
+    line-height: 1.75rem;
+}
+
+@media screen and (max-width:767px) {
+    .c-vision-cols {
+        grid-row-gap: 2rem;
+        flex-direction: column;
+    }
+
+    .c-vision-col_left {
+        width: 100%;
+        max-width: none;
+        font-size: 2rem;
+        line-height: 1.25;
+    }
+
+    .c-vision-col_right {
+        width: 100%;
+        max-width: none;
+    }
+}

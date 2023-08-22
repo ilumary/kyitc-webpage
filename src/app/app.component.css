@@ -5,21 +5,6 @@
     padding-bottom: 5rem;
 }
 
-.c-container {
-    width: 100%;
-    max-width: 2000px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.c-section {
-    border-top: 1px #000;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-}
-
 .pre-footer.c-section {
     background-color: #444444;
     color: #F5F2E9;
@@ -28,16 +13,6 @@
 }
 
 @media screen and (max-width:767px) {
-    .c-container {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-
-    .c-section {
-        padding-top: 6rem;
-        padding-bottom: 6rem;
-    }
-
     .pre-footer.c-section {
         padding-top: 4rem;
         padding-bottom: 4rem;
