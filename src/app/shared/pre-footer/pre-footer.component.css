@@ -31,3 +31,16 @@
         max-width: none;
     }
 }
+
+.rectangular-button {
+    display: inline-block;
+    padding: 10px 20px;
+    width: 150%;
+    background-color: #ffffff;
+    color: #222222;
+    font-size: 26px;
+    cursor: pointer;
+    box-shadow: none;
+    border-radius: 0px;
+    border: 0;
+}
