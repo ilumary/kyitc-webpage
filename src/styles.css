@@ -16,6 +16,7 @@ article, aside, div, footer, header, hgroup, main, nav, section {
 
 body {
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
 }
 
