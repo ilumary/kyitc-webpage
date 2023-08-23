@@ -1,10 +1,25 @@
-.box {
-  background-color:#000000;
-  color:#ffffff;
+.testamonial-cols {
+  grid-column-gap: 3rem;
+  justify-content: space-between;
+  display: flex;
 }
 
-.splitter {
-  background-color:#ffffff;
-  color:#ffffff;
-  font-size:0.12em;
+.testamonial-col {
+  width: 50%;
+  max-width: 95%;
+  letter-spacing: -.02em;
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+
+@media screen and (max-width:767px) {
+  .testamonial-cols {
+      grid-row-gap: 2rem;
+      flex-direction: column;
+  }
+
+  .testamonial-col {
+      width: 100%;
+      max-width: none;
+  }
 }
