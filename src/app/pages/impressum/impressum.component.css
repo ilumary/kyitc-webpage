@@ -1,0 +1,14 @@
+.header {
+  font-size:2rem;
+  font-weight:600;
+}
+
+.subheader {
+  font-size:1.5rem;
+  font-weight:420;
+}
+
+.text {
+  font-style:italic;
+  font-weight:280;
+}
