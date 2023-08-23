@@ -15,6 +15,7 @@ import { AppointmentsComponent } from './pages/appointments/appointments.compone
 import { ImpressumComponent } from './pages/impressum/impressum.component';
 import { FaqComponent } from './pages/faq/faq.component';
 import { PreFooterComponent } from './shared/pre-footer/pre-footer.component';
+import { TestamonialsComponent } from './pagecomponents/testamonials/testamonials.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { PreFooterComponent } from './shared/pre-footer/pre-footer.component';
     AppointmentsComponent,
     ImpressumComponent,
     FaqComponent,
-    PreFooterComponent
+    PreFooterComponent,
+    TestamonialsComponent
   ],
   imports: [
     BrowserModule,
