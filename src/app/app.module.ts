@@ -16,6 +16,7 @@ import { ImpressumComponent } from './pages/impressum/impressum.component';
 import { FaqComponent } from './pages/faq/faq.component';
 import { PreFooterComponent } from './shared/pre-footer/pre-footer.component';
 import { TestamonialsComponent } from './pagecomponents/testamonials/testamonials.component';
+import { CoachingadComponent } from './pagecomponents/coachingad/coachingad.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { TestamonialsComponent } from './pagecomponents/testamonials/testamonial
     ImpressumComponent,
     FaqComponent,
     PreFooterComponent,
-    TestamonialsComponent
+    TestamonialsComponent,
+    CoachingadComponent
   ],
   imports: [
     BrowserModule,
