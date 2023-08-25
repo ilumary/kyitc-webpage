@@ -1,1 +1,50 @@
-<p>contact works!</p>
+<section class="c-hero height-100vh">
+    <div class="c-container">
+        <div class="c-hero-cols custom-contact-form">
+            <div class="c-hero-col_left custom-contact-form">
+                <div class="c-tag">
+                    <div class="text-block">Kontakt aufnehmen</div>
+                </div>
+                <div class="c-title-wrapper cc-dark-blue">
+                    <h1 class="c-title-2">Wir freuen uns auf Ihre Anfrage.</h1>
+                </div>
+                <div>Wir sind stolz darauf, zugänglich zu sein und schnell zu antworten. Zögern Sie nicht, sich unabhängig Ihrer Umstände mit jeder Frage an uns zu wenden.</div>
+                <div class="c-col-icon-text">
+                    <img src="https://uploads-ssl.webflow.com/63c9c734601380243a05be3f/63ebb2d98a6dff239b3c0a22_address.png" loading="lazy" sizes="35px" srcset="https://uploads-ssl.webflow.com/63c9c734601380243a05be3f/63ebb2d98a6dff239b3c0a22_address-p-500.png 500w, https://uploads-ssl.webflow.com/63c9c734601380243a05be3f/63ebb2d98a6dff239b3c0a22_address.png 500w" alt="" class="icon">
+                    <div class="c-next-to-icon-adjust-padding">
+                        <div class="c-tag small">
+                            <div>Addresse</div>
+                        </div>
+                        <div>Von-Ketteler-Str. 32<br>Leverkusen, NRW 51371</div>
+                    </div>
+                </div>
+                <div class="c-col-icon-text">
+                    <img src="https://uploads-ssl.webflow.com/63c9c734601380243a05be3f/63ebb2d9a1f3198489c0efff_email.png" loading="lazy" sizes="35px" srcset="https://uploads-ssl.webflow.com/63c9c734601380243a05be3f/63ebb2d9a1f3198489c0efff_email-p-500.png 500w, https://uploads-ssl.webflow.com/63c9c734601380243a05be3f/63ebb2d9a1f3198489c0efff_email.png 500w" alt="" class="icon">
+                    <div class="c-next-to-icon-adjust-padding">
+                        <div class="c-tag small">
+                            <div>Email &amp; Presse</div>
+                        </div>
+                        <div>kickstartyouritcareer@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+            <div class="c-hero-col_right custom-contact-form">
+                <div class="w-form">
+                    <form [formGroup]="contactForm" aria-label="Email Form">
+                        <input type="text" class="c-field w-input" maxlength="256" name="name" id="name" placeholder="Ihr Name" formControlName="name">
+                        <input type="email" class="c-field w-input" maxlength="256" name="email" id="name" placeholder="Ihre Email" formControlName="email">
+                        <textarea type="text" class="c-field custom-long-message w-input" maxlength="5000" name="message" id="message" placeholder="Ihre Nachricht" formControlName="message"></textarea>
+                        <p>Form Status: {{ contactForm.valid }}</p><br>
+                        <button type="submit" class="button w-button" (click)="onSubmit()" [disabled]="!contactForm.valid">Abschicken</button>
+                    </form>
+                    <div class="success-message w-form-done" tabindex="-1" role="region" aria-label="Email Form success">
+                        <div>Vielen Dank! Ihre Kontaktanfrage wurde empfangen!</div>
+                    </div>
+                    <div class="w-form-fail" tabindex="-1" role="region" aria-label="Email Form failure">
+                        <div>Oops! Es gab einen Fehler während das Formular abgeschickt wurde.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

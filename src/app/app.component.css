@@ -4,17 +4,3 @@
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
-
-.pre-footer.c-section {
-    background-color: #444444;
-    color: #F5F2E9;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
-
-@media screen and (max-width:767px) {
-    .pre-footer.c-section {
-        padding-top: 4rem;
-        padding-bottom: 4rem;
-    }
-}
