@@ -183,4 +183,21 @@ textarea.w-input, textarea.w-select {
         padding-top: 12rem;
         padding-bottom: 6rem;
     }
+
+    .c-hero-col_right, .c-hero-col_right.cc-team {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .c-hero-col_left.custom-contact-form {
+        width: 100%;
+    }
+
+    .c-hero-col_right.custom-contact-form {
+        width: 100%;
+        max-width: none;
+        margin-top: 2rem;
+    }
 }
