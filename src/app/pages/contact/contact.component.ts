@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AbstractControl, FormControl, FormGroup, Validators } from '@angular/forms';
 import { FormBuilder} from '@angular/forms';
-import { ContactService } from 'src/app/services/contact/contact.service';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Component({
     selector: 'app-contact',
@@ -15,11 +15,13 @@ export class ContactComponent implements OnInit{
         message: ['', Validators.required],
     });
 
-    constructor(private fb: FormBuilder, private contact: ContactService) {}
+    constructor(private fb: FormBuilder, private http: HttpClient) {}
 
     ngOnInit() : void {}
 
     onSubmit(): void {
-        this.contact.HandleMessage(JSON.stringify(this.contactForm.value, null, 2));
+        this.http.post('/api/contact', this.contactForm.value).subscribe((res: any) => {
+            console.log(res);
+        });
     }
 }
