@@ -20,6 +20,7 @@ export class ContactComponent implements OnInit{
     ngOnInit() : void {}
 
     onSubmit(): void {
+        //TODO protect/scan against bad user input
         this.http.post('/api/contact', this.contactForm.value).subscribe((res: any) => {
             console.log(res);
         });
